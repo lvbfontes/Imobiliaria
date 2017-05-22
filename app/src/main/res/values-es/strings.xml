@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inmobiliaria</string>
+
+    <string name="txtTelaIdiomas">Seleccione Idioma</string>
+    <string name="txtTelaFiltroContrato">¿Lo qué deseas encontrar?</string>
+    <string name="txtTelaFiltroTipoImovel">¿Qué tipo de inmueble busca?</string>
+    <string name="txtTelaFiltroComodos">Seleccione el número de comodos deseado</string>
+    <string name="txtTelaFiltroFaixaPreco">Seleccione el rango de precios</string>
+
+    <string name="edtEmail">E-mail</string>
+    <string name="edtSenha">Contraseña</string>
+
+    <string name="btnLogin">Login</string>
+    <string name="btnCadastro">Registro</string>
+    <string name="btnIdioma">Idioma</string>
+    <string name="btnAluguel">Alquiler</string>
+    <string name="btnCompra">Compra</string>
+    <string name="btnPronto">Listo!</string>
+    <string name="btnPortugues">Português</string>
+    <string name="btnIngles">Inglês</string>
+    <string name="btnEspanhol">Espanhol</string>
+    <string name="btnFrances">Francês</string>
+
+    <string-array name="listaIdiomas">
+        <item>Português</item>
+        <item>Inglês</item>
+        <item>Español</item>
+        <item>Français</item>
+    </string-array>
+
+    <string-array name="listaTipoImovel">
+        <item>Casa</item>
+        <item>Apartamento</item>
+        <item>Comercial</item>
+        <item>Terreno</item>
+        <item>Granja</item>
+    </string-array>
+
+    <string-array name="listaComodos">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+    </string-array>
+</resources>
