@@ -7,6 +7,11 @@
     <string name="txtTelaFiltroTipoImovel">Wich kind of property are you looking for?</string>
     <string name="txtTelaFiltroComodos">Select the number of rooms that you wish</string>
     <string name="txtTelaFiltroFaixaPreco">Select the price range</string>
+    <string name="txtTelaCadastro">Register</string>
+
+    <string name="hintNome">First Name</string>
+    <string name="hintSobrenome">Last Name</string>
+    <string name="hintRepeteSenha">Repeat the Password</string>
 
     <string name="edtEmail">E-mail</string>
     <string name="edtSenha">Password</string>
@@ -21,6 +26,7 @@
     <string name="btnIngles">Inglês</string>
     <string name="btnEspanhol">Espanhol</string>
     <string name="btnFrances">Francês</string>
+    <string name="btnConfirmaCadastro">Register!</string>
 
     <string-array name="listaIdiomas">
         <item>Português</item>
@@ -44,4 +50,5 @@
         <item>04</item>
         <item>05</item>
     </string-array>
+    <string name="toastSenhaDiferente">Passwords don\'t match</string>
 </resources>

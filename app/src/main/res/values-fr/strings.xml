@@ -7,6 +7,10 @@
     <string name="txtTelaFiltroTipoImovel">Quel type de propriété et à la recherche?</string>
     <string name="txtTelaFiltroComodos">Sélectionnez le nombre de chambres</string>
     <string name="txtTelaFiltroFaixaPreco">Sélectionnez la fourchette de prix</string>
+    <string name="txtTelaCadastro">Cadastre</string>
+
+    <string name="hintSobrenome">Nom de Famille</string>
+    <string name="hintRepeteSenha">Répétez mot de passe</string>
 
     <string name="edtEmail">E-mail</string>
     <string name="edtSenha">Mot de Passe</string>
@@ -21,6 +25,7 @@
     <string name="btnIngles">Inglês</string>
     <string name="btnEspanhol">Espanhol</string>
     <string name="btnFrances">Francês</string>
+    <string name="btnConfirmaCadastro">Vous inscrire!</string>
 
     <string-array name="listaIdiomas">
         <item>Português</item>
@@ -44,4 +49,6 @@
         <item>04</item>
         <item>05</item>
     </string-array>
+    <string name="hintNome">Prénom</string>
+    <string name="toastSenhaDiferente">Les mots de passe doivent correspondre</string>
 </resources>

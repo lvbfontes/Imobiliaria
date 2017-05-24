@@ -40,11 +40,20 @@
         android:text="@string/btnFrances"
         android:onClick="idiomaFR"/>
 
-    <android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:backgroundTint="@color/colorAccent"
-        app:srcCompat="?attr/actionModeCloseDrawable"
-        android:onClick="voltar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:onClick="voltar"
+            app:backgroundTint="@color/colorAccent"
+            android:src="@drawable/ic_done_black_24dp" />
+
+    </RelativeLayout>
+
 
 </LinearLayout>

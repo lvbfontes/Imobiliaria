@@ -24,10 +24,13 @@ public class TelaFiltroTipoImovel extends AppCompatActivity {
         listaTipoImovel.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> lista, View view, int position, long id) {
-
-                Intent intent = new Intent(TelaFiltroTipoImovel.this, TelaFiltroComodos.class);
-
-                startActivity(intent);
+                if (position == 3) {
+                    Intent intent = new Intent(TelaFiltroTipoImovel.this, TelaFiltroTerrenoMetro.class);
+                    startActivity(intent);
+                } else {
+                    Intent intent = new Intent(TelaFiltroTipoImovel.this, TelaFiltroComodos.class);
+                    startActivity(intent);
+                }
             }
         });
     }

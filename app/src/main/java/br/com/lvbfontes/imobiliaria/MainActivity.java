@@ -25,6 +25,15 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnLogin = (Button) findViewById(R.id.btnLogin);
         Button btnIdioma = (Button) findViewById(R.id.btnIdioma);
+        Button btnCadastro = (Button) findViewById(R.id.btnCadastro);
+
+        btnCadastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, TelaCadastro.class);
+                startActivity(intent);
+            }
+        });
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override

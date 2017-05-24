@@ -7,6 +7,11 @@
     <string name="txtTelaFiltroTipoImovel">¿Qué tipo de inmueble busca?</string>
     <string name="txtTelaFiltroComodos">Seleccione el número de comodos deseado</string>
     <string name="txtTelaFiltroFaixaPreco">Seleccione el rango de precios</string>
+    <string name="txtTelaCadastro">Registro</string>
+
+    <string name="hintNome">Primer Nombre</string>
+    <string name="hintSobrenome">Apellido</string>
+    <string name="hintRepeteSenha">Repita la contraseña</string>
 
     <string name="edtEmail">E-mail</string>
     <string name="edtSenha">Contraseña</string>
@@ -21,6 +26,7 @@
     <string name="btnIngles">Inglês</string>
     <string name="btnEspanhol">Espanhol</string>
     <string name="btnFrances">Francês</string>
+    <string name="btnConfirmaCadastro">Registrar!</string>
 
     <string-array name="listaIdiomas">
         <item>Português</item>
@@ -44,4 +50,5 @@
         <item>04</item>
         <item>05</item>
     </string-array>
+    <string name="toastSenhaDiferente">Las contraseñas deben ser iguales</string>
 </resources>

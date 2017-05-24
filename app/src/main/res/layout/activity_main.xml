@@ -13,16 +13,19 @@
         android:layout_height="wrap_content"
         android:src="@drawable/house_icon"/>
 
-    <EditText android:id="@+id/edtEmail"
+    <EditText
+        android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/edtEmail" />
+        android:hint="@string/edtEmail"
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/edtSenha"/>
+        android:hint="@string/edtSenha"
+        android:inputType="textPassword" />
 
     <TableRow
         android:layout_width="match_parent"
