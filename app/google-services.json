@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "863470083488",
+    "firebase_url": "https://imobiliaria-6604f.firebaseio.com",
+    "project_id": "imobiliaria-6604f",
+    "storage_bucket": "imobiliaria-6604f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863470083488:android:3250ef5a2fe7ca70",
+        "android_client_info": {
+          "package_name": "br.com.lvbfontes.imobiliaria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863470083488-rkamb3n7jg9075g0ob1tc403jsesrab1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_ErMN-_6mlYW14_9NRgQ-iVSiE8i_glE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

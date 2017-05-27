@@ -7,6 +7,7 @@
     <string name="txtTelaFiltroComodos">Selecione o número de cômodos desejado</string>
     <string name="txtTelaFiltroFaixaPreco">Selecione a faixa de preço</string>
     <string name="txtTelaCadastro">Cadastre-se</string>
+    <string name="txtTelaFiltroTerrenoMetro">Selecione o tamanho de terreno desejado:</string>
 
     <string name="hintNome">Nome</string>
     <string name="hintSobrenome">Sobrenome</string>
