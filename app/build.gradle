@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 25
@@ -21,6 +20,7 @@ android {
 }
 
 dependencies {
+    compile "com.google.firebase:firebase-auth:9.0.2"
     compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
@@ -31,3 +31,5 @@ dependencies {
     compile 'com.crystal:crystalrangeseekbar:1.1.1'
     testCompile 'junit:junit:4.12'
 }
+
+apply plugin: 'com.google.gms.google-services'
