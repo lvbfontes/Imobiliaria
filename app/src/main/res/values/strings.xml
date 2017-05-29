@@ -5,9 +5,9 @@
     <string name="txtTelaFiltroContrato">O que você deseja encontrar?</string>
     <string name="txtTelaFiltroTipoImovel">Que tipo de imóvel você procura?</string>
     <string name="txtTelaFiltroComodos">Selecione o número de cômodos desejado</string>
+    <string name="txtTelaFiltroArea">Seleciona a área desejada</string>
     <string name="txtTelaFiltroFaixaPreco">Selecione a faixa de preço</string>
     <string name="txtTelaCadastro">Cadastre-se</string>
-    <string name="txtTelaFiltroTerrenoMetro">Selecione o tamanho de terreno desejado:</string>
 
     <string name="hintNome">Nome</string>
     <string name="hintSobrenome">Sobrenome</string>
@@ -51,6 +51,17 @@
         <item>03</item>
         <item>04</item>
         <item>05</item>
+    </string-array>
+
+    <string-array name="listaArea">
+        <item>150m²</item>
+        <item>250m²</item>
+        <item>300m²</item>
+        <item>500m²</item>
+        <item>1000m²</item>
+        <item>2000m²</item>
+        <item>3000m²</item>
+        <item>4000m²</item>
     </string-array>
 
 </resources>

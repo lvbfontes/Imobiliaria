@@ -42,13 +42,16 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp">
 
         <android.support.design.widget.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="6dp"
             android:onClick="voltar"
             app:backgroundTint="@color/colorAccent"
             android:src="@drawable/ic_done_black_24dp" />

@@ -51,4 +51,5 @@
         <item>05</item>
     </string-array>
     <string name="toastSenhaDiferente">Las contraseñas deben ser iguales</string>
+    <string name="txtTelaFiltroArea">Selecciona el área deseada</string>
 </resources>

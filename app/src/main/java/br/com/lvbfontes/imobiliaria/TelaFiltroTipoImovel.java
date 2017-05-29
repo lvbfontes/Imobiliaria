@@ -7,9 +7,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import br.com.lvbfontes.imobiliaria.Modelo.Imovel;
-
-
 public class TelaFiltroTipoImovel extends AppCompatActivity {
 
     private ListView listaTipoImovel;
@@ -25,7 +22,10 @@ public class TelaFiltroTipoImovel extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> lista, View view, int position, long id) {
                 if (position == 3) {
-                    Intent intent = new Intent(TelaFiltroTipoImovel.this, TelaFiltroTerrenoMetro.class);
+                    Intent intent = new Intent(TelaFiltroTipoImovel.this, TelaFiltroArea.class);
+                    startActivity(intent);
+                } else if (position == 4){
+                    Intent intent = new Intent(TelaFiltroTipoImovel.this, TelaFiltroArea.class);
                     startActivity(intent);
                 } else {
                     Intent intent = new Intent(TelaFiltroTipoImovel.this, TelaFiltroComodos.class);

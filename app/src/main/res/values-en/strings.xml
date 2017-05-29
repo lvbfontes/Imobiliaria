@@ -51,4 +51,5 @@
         <item>05</item>
     </string-array>
     <string name="toastSenhaDiferente">Passwords don\'t match</string>
+    <string name="txtTelaFiltroArea">Select the desired area</string>
 </resources>

@@ -51,4 +51,5 @@
     </string-array>
     <string name="hintNome">Prénom</string>
     <string name="toastSenhaDiferente">Les mots de passe doivent correspondre</string>
+    <string name="txtTelaFiltroArea">Sélectionnez la zone souhaitée</string>
 </resources>

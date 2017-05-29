@@ -26,8 +26,8 @@
             android:layout_height="wrap_content"
             app:corner_radius="5"
             app:min_value="0"
-            app:max_value="5000"
-            app:steps="100"
+            app:max_value="500000"
+            app:steps="500"
             app:data_type="_integer"
             android:layout_marginTop="32dp" />
 
