@@ -53,8 +53,8 @@
             android:layout_marginRight="6dp"
             android:layout_marginBottom="6dp"
             android:onClick="voltar"
-            app:backgroundTint="@color/colorAccent"
-            android:src="@drawable/ic_done_black_24dp" />
+            app:backgroundTint="@color/colorAccent"/>
+            //android:src="@drawable/ic_done_black_24dp" />
 
     </RelativeLayout>
 
